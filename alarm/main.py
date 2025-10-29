@@ -1,6 +1,8 @@
-#2-9-25
-#alarm clock
-
+'''
+2-9-25
+alarm clock
+sound: https://freesound.org/people/NoiseCollector/sounds/4914/
+'''
 import time
 import datetime
 import pygame # suppress greeting messages -> terminal -> pip show pygame -> location -> _init_.py
@@ -45,5 +47,6 @@ def main():
 
     else:
         print("run the program in the main file")
+
 
 main()
